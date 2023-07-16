@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Clock</title>
+     <link rel="stylesheet" href="/CSS/styles.css">
+     <script src="/JS/App.js"></script>
+     <script src="/JS/WeatherData.js"></script>
+</head>
+<body onload="setInterval(getClock, 1000)">
+     <h1>Digital Clock</h1>
+     <div class="clock">
+          <div class="day">day</div>
+          <div class="time">
+               <span>00 : </span>
+               <span>00 : </span>
+               <span>00</span>
+               <span>AM</span>
+          </div>
+          <div class="mon-day">
+               <p>DayMonth</p>
+               <p>DayMonth</p>
+               <p>DayMonth</p>
+          </div>
+     </div>
+     <div class="location">
+          <p>27 c</p>
+          <p>Cloudy</p>
+     </div>
+</body>
+</html>

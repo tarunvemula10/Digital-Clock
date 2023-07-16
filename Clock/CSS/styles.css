@@ -1,0 +1,55 @@
+@font-face {
+     font-family: paul;
+     src: url(/Fonts/Paul-le1V.ttf);
+}
+@font-face {
+     font-family: aristotle;
+     src: url(/Fonts/ARISTOTLE\ Regular.ttf);
+}
+h1 {
+     width: fit-content;
+     font-size: 50px;
+     margin: 7% auto;
+     font-family: aristotle;
+     letter-spacing: 10px;
+     color: aqua;
+     text-shadow: 1px 1px 20px aqua;
+}
+body {
+     background-color: #1e1e1e;
+}
+.day {
+     font-size: 12px;
+     font-family: aristotle;
+     padding: 20px;
+}
+.clock {
+     width: 45%;
+     margin: -2% auto;
+     color: aqua;
+     text-align: center;
+     border-radius: 30px;
+     box-shadow: 1px 1px 20px aqua;
+}
+.time {
+     font-family: paul;
+     font-size: 100px;
+     padding: 10px;
+}
+.mon-day {
+     display: flex;
+     justify-content: space-evenly;
+     padding: 20px;
+     font-family: aristotle;
+     font-size: 11px;
+}
+.location {
+     width: 45%;
+     color: aqua;
+     margin: 4% auto;
+     display: flex;
+     justify-content: space-evenly;
+     font-size: 25px;
+     font-family: paul;
+     text-shadow: 1px 1px 20px aqua;
+}
